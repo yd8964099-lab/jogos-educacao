@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fff9fb;
+  color: #5c3a48;
+}
+header {
+  background: #ffe3ec;
+  color: #8a2f4e;
+  text-align: center;
+  padding: 30px 15px;
+}
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  color: #a8325e;
+}
+header .autor {
+  font-size: 14px;
+  opacity: 0.8;
+}
+nav {
+  background: #ffedf2;
+  text-align: center;
+  padding: 12px;
+  position: sticky;
+  top: 0;
+}
+nav a {
+  color: #8a2f4e;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+  font-size: 14px;
+}
+nav a:hover {
+  color: #d6336c;
+}
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+section h2 {
+  color: #b34a6e;
+  border-bottom: 3px solid #ffe3ec;
+  padding-bottom: 5px;
+}
+.intro, .top3 {
+  background: white;
+  border: 2px solid #ffe3ec;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+.grade {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 18px;
+}
+.card {
+  background: white;
+  border: 2px solid #ffe3ec;
+  border-radius: 15px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(255, 210, 220, 0.3);
+}
+.card .capa {
+  font-size: 48px;
+  text-align: center;
+  background: #fff0f5;
+  border-radius: 12px;
+  padding: 15px;
+}
+.card h3 {
+  color: #a8325e;
+  margin: 10px 0 5px;
+}
+.card .meta {
+  color: #a88a94;
+  font-size: 13px;
+}
+.card .edu {
+  background: #fff7f9;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.tag {
+  display: inline-block;
+  background: #ffe3ec;
+  color: #8a2f4e;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin: 3px 2px;
+  font-weight: bold;
+}
+.gratis {
+  background: #ffd1de;
+  color: #8a2f4e;
+}
+footer {
+  background: #ffe3ec;
+  color: #8a2f4e;
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+}
